@@ -107,6 +107,16 @@ session_start();
             <button type="submit" class="btn">Envoyer</button>
         </form>
     </div>
+    <div class="direct-contact-container">
+        <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Paris, France</span></i></li>
+            
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">0769508858</a></span></i></li>
+            
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">1306638404h@gmail.com</a></span></i></li>
+            
+        </ul>
+    </div>
 
     <script src="header.js"></script>
 </body>
