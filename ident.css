@@ -1,9 +1,11 @@
-body {
-    background-color: gray;
-    height: 100vh;
-    font-family: arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+body{
+    height: 100vh;
+    background-color: #dcffe2 ;
+    font-family: 'Montserrat', sans-serif;
+}
 .container {
     position: relative;
 }
@@ -17,22 +19,19 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, .3);
+    background: #dcffe2;
     padding: 3rem;
     height: 380px;
-    border-radius: 20px;
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    border-top: 1px solid rgba(255, 255, 255, .3);
+    border: 1px solid black;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     -moz-backdrop-filter: blur(10px);
-    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
     align-items: center;
     margin: 50px 0;
 }
 
 .form-title {
-    color: white;
+    color: black;
     font-weight: 500;
     opacity: .7;
     font-size: 1.4rem;
@@ -41,7 +40,7 @@ form {
 }
 
 .form-title {
-    color: white;
+    color: black;
     font-weight: 500;
     opacity: .7;
     font-size: 1.4rem;
@@ -51,40 +50,41 @@ form {
 
 
 input {
-    background: transparent;
+    background-color: white;
     border: none;
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    border-top: 1px solid rgba(255, 255, 255, .3);
     padding: 1rem;
     width: 200px;
-    border-radius: 50px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     -moz-backdrop-filter: blur(5px);
     box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
-    color: white;
+    color: black;
     font-weight: 500;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
     transition: all .3s;
     margin-bottom: 2em;
 }
 
-input:hover,
-input[type="email"]:focus,
-input[type="password"]:focus {
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+
+
+input[type="text"]:hover,
+input[type="password"]:hover{
+    background-color: #f3f3f3;
 }
 
-input[type="button"] {
+input[type="submit"] {
     margin-top: 10px;
     width: 150px;
     font-size: 1rem;
     cursor: pointer;
+    background-color: rgb(92, 211, 155);
+}
+input[type="submit"]:hover{
+    background-color:rgb(81, 184, 136);
 }
 
 ::placeholder {
-    color: #fff;
+    color: black;
 }
 
 
